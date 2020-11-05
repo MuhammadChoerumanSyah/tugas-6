@@ -18,13 +18,20 @@ print(w, x, y, z, sep='')
 print(w, x, y, z, sep=':')
 print(w, x, y, z, sep='.....')
 
-#Hasil dari source code tersebut seperti gambar dibawah ini :
 
+print('A', end='')
+print('B', end='')
+print('C', end='')
+#Penggunaan print () digunakan untuk mencetak output, seperti syntax dibawah ini :
 
-#String Format
-#String formatting atau pemformatan string memungkinan kita menyuntikkan item kedalam string dari pada kita mencoba menggabungkan string menggunakan koma atau string concatenation.
+print()
 
-#Penggunaan source code yang di berikan oleh dosen seperti berikut :
+#Syntax dibawah ini digunakan untuk menampilkan output berupa string
+
+print('X')
+print('Y')
+print('z')
+
 #string format 1
 print(0, 10**0)
 print(1, 10**1)
@@ -50,22 +57,24 @@ print('{0:>3} {1:>16}'.format(8, 10**8))
 print('{0:>3} {1:>16}'.format(9, 10**9))
 print('{0:>3} {1:>16}'.format(10, 10**10))
 
-#Lab 2
-a=input("masukkan nilai a:")
-b=input("masukkan nilai b:")
-print("variable a=",a)
-print("variable b=",b)
-print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+print('{0:8} | {1:9}'.format('Nama orang','Jumlah'))
+print('{0:8} | {1:9}'.format('messi',3.))
+print('{0:8} | {1:9}'.format('James',10))
 
-#konversi nilai variable
+print('{:<30}{:30}{:>30}'.format('mobil','ufo','pesawat'))
+print('{:<30}{:30}{:>30}'.format(10,20,15))
+
+a=int(input("masukkan nilai a"))
+b=int(input("masukkan niali b"))
+print("variabel a=",a)
+print("variabel b=",b)
+print("hasi penggabungan {1}&{0}=%".format(a,b) %(a+b))
+
+#konversi nilai variable 
 a=int(a)
-b=int(b)
+b=int(x)
 print("hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
-print("hasil pembagian {1}/{0}=d".format(a,b) %(a/b))
+print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 
-
-
-
-
-
+#a = 10 x = 5 panjang = 1000 print(0, 10**0)
 
