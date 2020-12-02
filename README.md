@@ -33,7 +33,7 @@ Penggunaan END Penggunaan end digunakan untuk menambahkan karakter yang dicetak 
 `print('X')`
 `print('Y')`
 `print('z')`
-[output](output.png)
+![output](output.png)
 
 Penggunaan separator
 
@@ -64,7 +64,7 @@ print(w,x,y,z,sep="-----")
 hasil dari syntax / source code diatas adalah seperti berikut ini :
 
 Ouput:
-[output1](output1.png)
+![output1](output1.png)
 
 
 Pertemuan 6 - Lab 1-2
@@ -74,7 +74,7 @@ String formatting atau pemformatan string memungkinan kita menyuntikkan item ked
 
 Penggunaan source code yang di berikan seperti berikut :
 input:
-[input](input.png)
+![input](input.png)
 #string format 1
 print(0, 10**0)
 print(1, 10**1)
@@ -107,7 +107,7 @@ Yang pertama (sebelah kiri) akan menampilkan angka urut dari angka 0 hingga 10, 
 Dengan ketentuan sebagai berikut, Operasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [bintang dua] )
 Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10, dengan output sebagai berikut :
 Output:
-[output2](output2.png)
+![output2](output2.png)
 
 String Format 2
 
@@ -120,16 +120,16 @@ print('{0:8} | {1:9}'.format('Khabib',80.))
 print('{0:8} | {1:9}'.format('Ronaldo',75))
 
 Hasil dari source code contoh diatas akan seperti berikut :
-[output3](output3.png)
+![output3](output3.png)
 
 print('{:<30}{:30}{:>30}'.format('Khabib','Messi','Salah'))
 print('{:<30}{:30}{:>30}'.format(90,80,85))
 Output:
-[output4](output4.png)
+![output4](output4.png)
 
 Konversi Nilai Variable Untuk pembahasan terakhir, kali ini akan menyelesaikan tugas Lab 2 dari Dosen, yaitu konversi Nilai Variable Tugas
 
-[lab2](lab2.png)
+![lab2](lab2.png)
 String Format 2
 
 # Variabel adalah tempat menyimpan data
@@ -150,10 +150,10 @@ a=int(input("masukkan nilai a:")) b=int(input("masukkan nilai b:")) print("varia
 a=int(a) b=int(b) print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b)) print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 
 Input:
-[input2](input2.png)
+![input2](input2.png)
 
 Output:
-[output4](output4.png)
+![output4](output4.png)
 
 
 
